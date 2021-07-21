@@ -46,6 +46,10 @@ the text content of the `body` HTML element to "Hello World!".
 document.body.innerText = "Hello World!"
 ```
 
+Use the "Console" tab in your browser's Developer Tools to test your code. Add
+`debugger`s in your code to freeze the code execution on that line to
+examine the variables at that time of execution.
+
 Next, move to __/assets/js/search.js__. Here you will combine your knowledge of
 search algorithms and the DOM. You can think of the DOM as a tree,
 where each item in the DOM (e.g. `<div>`, `<p>`, etc.) can be considered a
